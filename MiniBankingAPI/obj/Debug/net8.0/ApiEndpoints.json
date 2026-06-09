@@ -1,0 +1,118 @@
+[
+  {
+    "ContainingType": "MiniBanking.API.Controllers.AccountController",
+    "Method": "CreateMyAccount",
+    "RelativePath": "api/Account/create-my-account",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiniBanking.API.Controllers.AccountController",
+    "Method": "Deposit",
+    "RelativePath": "api/Account/deposit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MiniBanking.API.DTOs.AccountOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiniBanking.API.Controllers.AccountController",
+    "Method": "GetMyAccounts",
+    "RelativePath": "api/Account/my-accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiniBanking.API.Controllers.AccountController",
+    "Method": "Withdraw",
+    "RelativePath": "api/Account/withdraw",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MiniBanking.API.DTOs.AccountOperationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiniBanking.API.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginDto",
+        "Type": "MiniBanking.API.DTOs.UserLoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiniBanking.API.Controllers.AuthController",
+    "Method": "Register",
+    "RelativePath": "api/Auth/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDto",
+        "Type": "MiniBanking.API.DTOs.UserRegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiniBanking.API.Controllers.TransactionsController",
+    "Method": "GetAccountTransactions",
+    "RelativePath": "api/Transactions/account/{accountId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiniBanking.API.Controllers.TransactionsController",
+    "Method": "TransferByIban",
+    "RelativePath": "api/Transactions/transfer-by-iban",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transferDto",
+        "Type": "MiniBanking.API.DTOs.TransferByIbanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

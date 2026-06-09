@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "m8UghVJ8Y8wGYmGfhcTRXZimNuDHHDrXndgm4rhR3VI=",
+  "Source": "MiniBanking.API",
+  "BasePath": "_content/MiniBanking.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

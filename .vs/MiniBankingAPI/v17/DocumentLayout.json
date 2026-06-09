@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Bitirme Projesi\\MiniBankingAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\services\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\models\\transaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\services\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\services\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\services\\interfaces\\iaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\helpers\\ibangenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\helpers\\ibangenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\dtos\\accountoperationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\dtos\\accountoperationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\services\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\dtos\\userlogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\data\\minibankingdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\data\\minibankingdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|c:\\bitirme projesi\\minibankingapi\\minibankingapi\\migrations\\20260317135149_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{540FE0C0-7343-4761-A1C0-60CD8C1DAEF8}|MiniBankingAPI\\MiniBanking.API.csproj|solutionrelative:minibankingapi\\migrations\\20260317135149_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Transaction.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Models\\Transaction.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Models\\Transaction.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Models\\Transaction.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Models\\Transaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:40:34.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwCoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T10:27:36.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Models\\User.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Models\\User.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Models\\User.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:40:05.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\AccountService.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Services\\AccountService.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\AccountService.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Services\\AccountService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T10:40:10.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\Interfaces\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Services\\Interfaces\\ITransactionService.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\Interfaces\\ITransactionService.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Services\\Interfaces\\ITransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T10:39:59.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\AuthService.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T10:41:23.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAYwFMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:52:45.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IAccountService.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Services\\Interfaces\\IAccountService.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\Interfaces\\IAccountService.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Services\\Interfaces\\IAccountService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T10:41:07.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IbanGenerator.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Helpers\\IbanGenerator.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Helpers\\IbanGenerator.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Helpers\\IbanGenerator.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Helpers\\IbanGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T14:33:07.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountOperationDto.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\DTOs\\AccountOperationDto.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\DTOs\\AccountOperationDto.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\DTOs\\AccountOperationDto.cs",
+              "RelativeToolTip": "MiniBankingAPI\\DTOs\\AccountOperationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:56:32.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Models\\Account.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Models\\Account.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Models\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:40:21.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:47:39.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Program.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Program.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:36:19.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T10:40:39.45Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserRegisterDto.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\DTOs\\UserRegisterDto.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\DTOs\\UserRegisterDto.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\DTOs\\UserRegisterDto.cs",
+              "RelativeToolTip": "MiniBankingAPI\\DTOs\\UserRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:46:18.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\appsettings.json",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\appsettings.json",
+              "RelativeToolTip": "MiniBankingAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-17T13:40:52.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserLoginDto.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\DTOs\\UserLoginDto.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\DTOs\\UserLoginDto.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\DTOs\\UserLoginDto.cs",
+              "RelativeToolTip": "MiniBankingAPI\\DTOs\\UserLoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:46:35.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20260317135149_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Migrations\\20260317135149_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Migrations\\20260317135149_InitialCreate.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Migrations\\20260317135149_InitialCreate.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Migrations\\20260317135149_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:51:49.673Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MiniBankingDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Data\\MiniBankingDbContextFactory.cs",
+              "RelativeDocumentMoniker": "MiniBankingAPI\\Data\\MiniBankingDbContextFactory.cs",
+              "ToolTip": "C:\\Bitirme Projesi\\MiniBankingAPI\\MiniBankingAPI\\Data\\MiniBankingDbContextFactory.cs",
+              "RelativeToolTip": "MiniBankingAPI\\Data\\MiniBankingDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T13:51:21.842Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
