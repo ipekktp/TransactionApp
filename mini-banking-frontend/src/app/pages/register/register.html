@@ -1,0 +1,63 @@
+<div class="auth-page">
+
+  <div class="auth-card">
+
+    <div class="brand">
+      <h1>MiniBank</h1>
+      <p>Yeni hesabını oluştur ve bankacılık işlemlerine başla.</p>
+    </div>
+
+    <form (ngSubmit)="register()">
+
+      <label>Kullanıcı Adı</label>
+      <input
+        type="text"
+        name="username"
+        [(ngModel)]="username"
+        placeholder="Kullanıcı adı"
+        required
+      />
+
+      <label>Email</label>
+      <input
+        type="email"
+        name="email"
+        [(ngModel)]="email"
+        placeholder="Email adresi"
+        required
+      />
+
+      <label>Şifre</label>
+      <input
+        type="password"
+        name="password"
+        [(ngModel)]="password"
+        placeholder="Şifre"
+        required
+      />
+
+      <button type="submit">
+        Kayıt Ol
+      </button>
+
+    </form>
+
+    @if (successMessage) {
+      <div class="success-message">
+        {{ successMessage }}
+      </div>
+    }
+
+    @if (errorMessage) {
+      <div class="error-message">
+        {{ errorMessage }}
+      </div>
+    }
+
+    <a routerLink="/login" class="switch-link">
+      Zaten hesabın var mı? Giriş yap
+    </a>
+
+  </div>
+
+</div>

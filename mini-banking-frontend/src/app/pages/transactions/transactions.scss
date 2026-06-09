@@ -1,0 +1,117 @@
+.transactions-page {
+  min-height: 100vh;
+  padding: 40px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #0f172a,
+      #1e3a8a
+    );
+
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.header {
+  margin-bottom: 36px;
+}
+
+.back-link {
+  color: #dbeafe;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header h1 {
+  margin: 24px 0 8px;
+  font-size: 38px;
+}
+
+.header p {
+  color: #cbd5e1;
+}
+
+.transactions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.transaction-card {
+  background:
+    linear-gradient(
+      135deg,
+      rgba(255,255,255,0.18),
+      rgba(255,255,255,0.08)
+    );
+
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 24px;
+  padding: 24px 28px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0 18px 50px rgba(0,0,0,0.2);
+}
+
+.transaction-card strong {
+  font-size: 18px;
+}
+
+.transaction-card p {
+  margin: 8px 0;
+  color: #cbd5e1;
+}
+
+.transaction-card span {
+  color: #dbeafe;
+  font-size: 14px;
+}
+
+.amount {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.incoming {
+  color: #86efac;
+}
+
+.outgoing {
+  color: #fecaca;
+}
+
+.empty-card {
+  background: rgba(255,255,255,0.12);
+  border: 1px solid rgba(255,255,255,0.2);
+  padding: 28px;
+  border-radius: 24px;
+  color: #dbeafe;
+}
+
+.filters {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.filters input,
+.filters select {
+  padding: 14px 16px;
+  border-radius: 14px;
+  border: 1px solid rgba(255,255,255,0.25);
+  background: rgba(255,255,255,0.12);
+  color: white;
+}
+
+.filters input::placeholder {
+  color: #cbd5e1;
+}
+
+.filters select option {
+  color: #111827;
+}

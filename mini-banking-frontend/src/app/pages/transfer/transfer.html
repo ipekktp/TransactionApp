@@ -1,0 +1,60 @@
+<div class="transfer-page">
+
+  <div class="transfer-card">
+
+    <a routerLink="/dashboard" class="back-link">
+      ← Dashboard
+    </a>
+
+    <h1>Para Transferi</h1>
+    <p>Seçili hesabından başka bir hesaba para gönder.</p>
+
+    <form (ngSubmit)="sendTransfer()">
+
+      <label>Gönderen Hesap No</label>
+      <input
+        type="number"
+        name="fromAccountId"
+        [(ngModel)]="fromAccountId"
+        readonly
+      />
+
+      <label>Alıcı Hesap No</label>
+      <input
+        type="number"
+        name="toAccountId"
+        [(ngModel)]="toIban"
+        placeholder="Alıcı hesap numarası"
+        required
+      />
+
+      <label>Tutar</label>
+      <input
+        type="number"
+        name="amount"
+        [(ngModel)]="amount"
+        placeholder="Gönderilecek tutar"
+        required
+      />
+
+      <button type="submit">
+        Transfer Yap
+      </button>
+
+    </form>
+
+    @if (successMessage) {
+      <div class="success-message">
+        {{ successMessage }}
+      </div>
+    }
+
+    @if (errorMessage) {
+      <div class="error-message">
+        {{ errorMessage }}
+      </div>
+    }
+
+  </div>
+
+</div>

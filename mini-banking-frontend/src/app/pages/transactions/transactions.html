@@ -1,0 +1,65 @@
+<div class="transactions-page">
+
+  <div class="header">
+    <a routerLink="/dashboard" class="back-link">
+      ← Dashboard
+    </a>
+
+    <h1>İşlem Geçmişi</h1>
+    <p>Hesap No: {{ accountId }}</p>
+  </div>
+
+  <div class="filters">
+    <input
+      type="text"
+      placeholder="İşlem ara..."
+      [(ngModel)]="searchText"
+    />
+
+    <select [(ngModel)]="directionFilter">
+        <option value="All">Tümü</option>
+        <option value="Incoming">Gelen</option>
+        <option value="Outgoing">Giden</option>
+    </select>
+  </div>
+
+  <div class="transactions-list">
+    <div
+      class="transaction-card"
+      *ngFor="let transaction of filteredTransactions">
+
+      <div>
+        <strong>{{ transaction.transactionType }}</strong>
+
+        <p>
+          {{ transaction.transactionDate | date:'dd.MM.yyyy HH:mm' }}
+        </p>
+
+        <span>
+          {{
+            transaction.direction === 'Incoming'
+              ? 'Gelen Transfer'
+              : 'Giden Transfer'
+          }}
+        </span>
+      </div>
+
+      <div
+        class="amount"
+        [class.incoming]="transaction.direction === 'Incoming'"
+        [class.outgoing]="transaction.direction === 'Outgoing'">
+
+        {{ transaction.direction === 'Incoming' ? '+' : '-' }}
+        ₺{{ transaction.amount }}
+      </div>
+
+    </div>
+  </div>
+
+  <div
+    class="empty-card"
+    [style.display]="isLoaded && filteredTransactions.length === 0 ? 'block' : 'none'">
+    Henüz işlem bulunmuyor.
+  </div>
+
+</div>

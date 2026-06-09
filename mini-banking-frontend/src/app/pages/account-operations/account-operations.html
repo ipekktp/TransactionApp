@@ -1,0 +1,54 @@
+<div class="operations-page">
+
+  <div class="operations-card">
+
+    <a routerLink="/dashboard" class="back-link">
+      ← Dashboard
+    </a>
+
+    <h1>Hesap İşlemleri</h1>
+    <p>Hesap No: {{ accountId }}</p>
+
+    <div class="operation-tabs">
+      <button
+        type="button"
+        [class.active]="selectedOperation === 'deposit'"
+        (click)="selectedOperation = 'deposit'">
+        Para Yatır
+      </button>
+
+      <button
+        type="button"
+        [class.active]="selectedOperation === 'withdraw'"
+        (click)="selectedOperation = 'withdraw'">
+        Para Çek
+      </button>
+    </div>
+
+    <form (ngSubmit)="submitOperation()">
+
+      <label>Tutar</label>
+
+      <input
+        type="number"
+        name="amount"
+        [(ngModel)]="amount"
+        placeholder="Tutar gir"
+        required
+      />
+
+      <button type="submit" class="submit-btn">
+        {{ selectedOperation === 'deposit' ? 'Para Yatır' : 'Para Çek' }}
+      </button>
+
+    </form>
+
+    @if (resultMessage) {
+      <div class="result-message">
+        {{ resultMessage }}
+      </div>
+    }
+
+  </div>
+
+</div>

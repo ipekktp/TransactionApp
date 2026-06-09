@@ -1,0 +1,88 @@
+<div class="dashboard-page">
+
+  <div class="topbar">
+    <div>
+      <h1>MiniBank</h1>
+      <p>Hoş geldin, {{ username }}</p>
+    </div>
+
+    <button class="logout-btn" (click)="logout()">
+      Çıkış Yap
+    </button>
+  </div>
+
+  <div class="summary">
+    <div class="summary-card">
+      <span>Toplam Hesap</span>
+      <strong>{{ accounts.length }}</strong>
+    </div>
+
+    <div class="summary-card">
+      <span>Toplam Bakiye</span>
+      <strong>₺ {{ getTotalBalance() }}</strong>
+    </div>
+  </div>
+
+  <div class="accounts-grid">
+
+    @for (account of accounts; track account.accountID) {
+
+      <div class="account-card">
+
+  <div class="card-top">
+    <span class="chip"></span>
+
+    <span class="bank-name">
+      MiniBank
+    </span>
+  </div>
+
+  <div class="card-balance">
+    <span>Kullanılabilir Bakiye</span>
+    <strong>₺ {{ account.balance }}</strong>
+  </div>
+
+  <div class="iban-box">
+    <span>IBAN</span>
+    <p>{{ account.iban || account.IBAN }}</p>
+  </div>
+
+  <div class="card-bottom">
+    <div>
+      <span>Hesap Tipi</span>
+      <strong>{{ account.accountType }}</strong>
+    </div>
+
+    <div>
+      <span>Hesap No</span>
+      <strong>{{ account.accountID }}</strong>
+    </div>
+  </div>
+
+  <div class="card-actions">
+    <a
+      class="transfer-btn"
+      [routerLink]="['/transfer', account.accountID]">
+      Transfer
+    </a>
+
+    <a
+      class="history-btn"
+      [routerLink]="['/transactions', account.accountID]">
+      Geçmiş
+    </a>
+
+    <a
+      class="operation-btn"
+      [routerLink]="['/account-operations', account.accountID]">
+      İşlemler
+    </a>
+  </div>
+
+</div>
+
+    }
+
+  </div>
+
+</div>
